@@ -1,0 +1,26 @@
+Here's the process for forking, downloading, committing
+
+From project page, create a fork, this will bring it to your own repository
+
+Clone or download -> grab address of repository
+https://github.com/nb137/Spoon-Knife.git
+
+git clone https://github.com/nb137/Spoon-Knife.git
+(it is now downloaded onto the local drive)
+
+[Do the editing you'd like to do (such as editing this document)]
+
+gid add [the filename you'd like to add/update]
+
+git commit -m 'comment for the addition'
+
+git status
+[outputs some stuff that might troubleshoot if it wont update]
+
+git remote -v
+[should list the fetch and push, in the previous case "origin" was used, and then we consider "master" as the main branch in the local drive]
+
+git push origin master
+[push the "master" branch locally to the origin (which is listed in the remote cmd output)]
+
+now it should be online...
